@@ -29,10 +29,12 @@ $(document).ready(function() {
     })
 
     function playHadouken() {
+	$('#hadouken-sound')[0].volume = 0.6;
         $('#hadouken-sound')[0].play();
     }
 
     function playCool() {
+	$('#cool-sound')[0].volume = 0.5;
         $('#cool-sound')[0].play();
     }
 
